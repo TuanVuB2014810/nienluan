@@ -1,0 +1,85 @@
+
+
+/* header */
+
+header {
+    display: grid;
+    grid-area: header;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: url("./frontend/images/2.jpg");
+    background-size: cover;
+    border: solid 1px #ccc7c8;
+    border-radius: 5px;
+    height: 125px;
+}
+
+.custom-nav{
+    margin-top: 40px;
+}
+.custom-nav li a{
+    text-decoration: none; 
+}
+
+nav {
+    display: grid;
+    grid-area: nav;
+    border: solid 1px #ccc7c8;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(16, 94, 240);
+    color: #fff;
+}
+nav li .nav-link{
+    color: #fff;
+    margin-right: 40px;
+}
+
+.logo{
+    margin: 10px 40px;
+    float:left
+}
+
+/* phan noi dung */
+
+main {
+    display: grid;
+    grid-area: main;
+    border: solid 1px #ccc7c8;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+footer {
+    grid-area: footer;
+    border: solid 1px #ccc7c8;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.list-group td {
+    border: 1px solid black;
+    border-collapse: collapse; 
+}
+.list-group th {
+    border: 1px solid black;
+    border-collapse: collapse; 
+}
+
+/* nut backtop */
+
+
+.nav-link:hover {
+    background-color: #eef288;
+}
+
+.card-header {
+    background: linear-gradient(to right, #007bff, #b3d9ff, #ffffff);
+    background-size: cover;
+    color: #fff;
+}
+.row.style_comment {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: aliceblue;
+    margin:10px;
+}
